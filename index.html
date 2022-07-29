@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nested Layouts Technique</title>
+  
+  <style>
+    .img{
+      width: 800px;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      margin-left: 60px;
+    }
+    
+    .facebook{
+      background-color: rgb(250,250,250);
+      display: inline-block;
+      margin-top: 40px;
+      margin-left: 50px;
+      padding-bottom: 3%; 
+      border-style: soild;
+      border-red: red;
+    }
+    
+    .image{
+       width: 380px;
+       height: 380px;
+       object-fit: cover;
+       object-position: top;
+       margin-top: 0px;
+       margin-left: 0px;
+       margin-bottom: 0px;
+       padding-left: 0;
+       image-rendering: pixelated;
+    }
+    
+    .name{
+      color: black;
+      font-size: 50px;
+      font-weight: bold;
+      margin-top: 8px;
+      margin-bottom: 0;
+      margin-left: 3.5%;
+    }
+    
+    .friends{
+      color: rgb(94,94,94);
+      font-size: 35px;
+      margin-top: 12px;
+      margin-bottom: 15px;
+      margin-left: 3.5%;
+    }
+    
+    .friend{
+      background-color: rgb(10, 102, 194);
+      color: white;
+      border: none;
+      height: 78px;
+      width: 230px;
+      margin-top: 12px;
+      margin-bottom: 0px;
+      margin-left: 3.5%;
+      font-size: 37px;
+      text-align: center; 
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    
+    .horizon{
+      
+    }
+ </style>
+</head>
+<body>
+  
+  <!-- 10a exercise -->
+  <img src="20220729_181230.png" class="img" alt=""><hr>
+  
+  <!-- 10b exercise -->
+   <img src="20220729_185348.png" class="img" alt=""><hr>
+   
+   <!-- 10c exercise -->
+    <img src="20220729_195206.png" class="img" alt=""><hr>
+    
+    <!-- 10d exercise -->
+     <img src="20220729_203030.png" class="img" alt=""><br><br><br><hr><br><br><br>
+     
+     <!-- 10e exercise -->
+     <!-- 1st div -->
+  <div class="facebook">
+    <div class="horizon">
+      <img src="yellow.jpg" class="image" alt="lady on yellow">
+    
+    <p class="name">
+      Sonia Israel
+    </p>
+    
+    <p class="friends">
+      48 mutual friends
+    </p>
+    
+    <button class="friend">
+      Add Friend
+    </button>
+    </div>
+  </div>
+  
+  <!-- 2nd div -->
+  <div class="facebook">
+  <div class="horizon">
+      <img src="white.jpg" class="image" alt="lady on white">
+    
+    <p class="name">
+      Monica Lewis 
+    </p>
+    
+    <p class="friends">
+      70 mutual friends
+    </p>
+    
+    <button class="friend">
+      Add Friend
+    </button>
+  </div>
+  </div>
+
+<!-- 3rd div -->
+<div class="facebook">
+   <div class="horizon">
+      <img src="dadson.jpg" class="image" alt="father and son">
+    
+    <p class="name">
+      Adrian Dave 
+    </p>
+    
+    <p class="friends">
+      56 mutual friends
+    </p>
+    
+    <button class="friend">
+      Add Friend
+    </button>
+   </div>
+  </div>
+  
+  <!-- 4th div -->
+  <div class="facebook">
+   <div class="horizon">
+      <img src="redguy.jpg" class="image" alt="RedBot">
+    
+    <p class="name">
+      Ben Bassey 
+    </p>
+    
+    <p class="friends">
+      32 mutual friends
+    </p>
+    
+    <button class="friend">
+      Add Friend
+    </button>
+   </div>
+  </div>
+</body>
+</html>
